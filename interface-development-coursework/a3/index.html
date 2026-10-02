@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- METADATA GOES HERE -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="style.css" rel="stylesheet">
+
+    <!-- BOOTSTRAP 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+    <div class="container py-3">
+
+        <a class="btn btn-outline-dark btn-lg mb-2" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+            aria-controls="offcanvasExample">
+            <i class="bi bi-list"></i>
+        </a>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+
+            <div class="offcanvas-header bg-primary text-white">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Menu&nbsp;</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body">
+
+                <ul class="list-group">
+                    <li class="list-group-item"><i class="bi bi-person-circle"></i> Profile & Account</li>
+                    <li class="list-group-item"><i class="bi bi-people-fill"></i> Relationship Settings</li>
+                    <li class="list-group-item"><i class="bi bi-check-circle"></i> Check-In History</li>
+                    <li class="list-group-item"><i class="bi bi-graph-up-arrow"></i> Insights & Progress</li>
+                    <li class="list-group-item"><i class="bi bi-bookmark-heart-fill"></i> Resources</li>
+                    <li class="list-group-item"><i class="bi bi-bell"></i> Notifications & Reminders</li>
+                    <li class="list-group-item"><i class="bi bi-shield-lock"></i> Privacy & Safety</li>
+                    <li class="list-group-item"><i class="bi bi-info-lg"></i> Help / About</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <h1>Welcome back, user (dearest lover)&nbsp;<i class="bi-heart-fill"></i></h1>
+        <p>How can we support you today?</p>
+
+        <div class="card" style="width: 50%;">
+            
+            <div class="card-body">
+                <h5 class="card-title">
+                    Check-in
+                </h5>
+                <p class="card-text">
+                    Let us find out what you might need today.
+                </p>
+                <a href="#" class="btn btn-primary">
+                    <i class="bi bi-check-circle"></i>
+                    Log
+                </a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 50%;">
+            
+            <div class="card-body">
+                <h5 class="card-title">
+                    Attachment Insights
+                </h5>
+                <p class="card-text">
+                    Understand your attachment patterns and deepen connection in your relationship.
+                </p>
+                <a href="#" class="btn btn-primary">
+                    <i class="bi bi-yin-yang"></i>
+                    Explore
+                </a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 50%;">
+            
+            <div class="card-body">
+                <h5 class="card-title">
+                    Communication Toolkit
+                </h5>
+                <p class="card-text">
+                    Tools to help you communicate with clarity, care, and emotional safety,  even during difficult moments
+                </p>
+                <a href="#" class="btn btn-primary">
+                    <i class="bi bi-chat-heart"></i>
+                    Start Now
+                </a>
+            </div>
+        </div>
+
+        <ul class="nav nav-pills nav-fill fs-1 position-fixed w-100 start-0 bottom-0 bg-white shadow border-top">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"><i class="bi bi-house-heart"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-check-circle-fill"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-person-heart"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-yin-yang"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"><i class="bi bi-chat-heart"></i></a>
+            </li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>

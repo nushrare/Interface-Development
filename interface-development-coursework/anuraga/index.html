@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ANURAGA — Home</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body class="app-bg text-white">
+
+  <!-- Top bar -->
+  <header class="container py-3 d-flex align-items-center justify-content-between">
+    <button class="btn btn-glass btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#appMenu" aria-controls="appMenu" aria-label="Open menu">
+      <i class="bi bi-list fs-4"></i>
+    </button>
+
+    <div class="text-center flex-grow-1">
+      <div class="small opacity-75">ANURAGA</div>
+    </div>
+  </header>
+
+  <!-- Offcanvas Menu -->
+  <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="appMenu" aria-labelledby="appMenuLabel">
+    <div class="offcanvas-header border-bottom border-light border-opacity-10">
+      <h5 class="offcanvas-title" id="appMenuLabel">Menu</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <div class="offcanvas-body">
+      <div class="list-group list-group-flush">
+        <a class="list-group-item list-group-item-action bg-transparent text-white" href="coming-soon.html">
+          <i class="bi bi-person-circle me-2"></i> Profile & Account
+        </a>
+        <a class="list-group-item list-group-item-action bg-transparent text-white" href="coming-soon.html">
+          <i class="bi bi-people-fill me-2"></i> Relationship Settings
+        </a>
+        <a class="list-group-item list-group-item-action bg-transparent text-white" href="coming-soon.html">
+          <i class="bi bi-check-circle me-2"></i> Check-In History
+        </a>
+        <a class="list-group-item list-group-item-action bg-transparent text-white" href="insights.html">
+          <i class="bi bi-graph-up-arrow me-2"></i> Insights & Progress
+        </a>
+        <a class="list-group-item list-group-item-action bg-transparent text-white" href="coming-soon.html">
+          <i class="bi bi-bookmark-heart-fill me-2"></i> Resources
+        </a>
+        <a class="list-group-item list-group-item-action bg-transparent text-white" href="coming-soon.html">
+          <i class="bi bi-bell me-2"></i> Notifications & Reminders
+        </a>
+        <a class="list-group-item list-group-item-action bg-transparent text-white" href="coming-soon.html">
+          <i class="bi bi-shield-lock me-2"></i> Privacy & Safety
+        </a>
+        <a class="list-group-item list-group-item-action bg-transparent text-white" href="coming-soon.html">
+          <i class="bi bi-info-lg me-2"></i> Help / About
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="container pb-4">
+    <section class="mb-4">
+      <h1 class="display-6 fw-semibold mb-1">Welcome back, Anushka</h1>
+      <p class="opacity-75 mb-0">How can we support you today?</p>
+    </section>
+
+    <section class="row g-3">
+      <div class="col-12">
+        <div class="card card-glass p-2">
+          <div class="card-body">
+            <div class="d-flex align-items-center gap-3">
+              <i class="bi bi-check-circle-fill fs-2"></i>
+              <div class="flex-grow-1">
+                <h2 class="h5 mb-1">Daily Check-In</h2>
+                <p class="mb-0 opacity-75">Log how you feel and what you need right now.</p>
+              </div>
+              <a class="btn btn-pill" href="checkin.html">Log</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="card card-glass p-2">
+          <div class="card-body">
+            <div class="d-flex align-items-center gap-3">
+              <i class="bi bi-yin-yang fs-2"></i>
+              <div class="flex-grow-1">
+                <h2 class="h5 mb-1">Attachment Insights</h2>
+                <p class="mb-0 opacity-75">Understand patterns and deepen connection.</p>
+              </div>
+              <a class="btn btn-pill" href="insights.html">Explore</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="card card-glass p-2">
+          <div class="card-body">
+            <div class="d-flex align-items-center gap-3">
+              <i class="bi bi-chat-heart fs-2"></i>
+              <div class="flex-grow-1">
+                <h2 class="h5 mb-1">Communication Toolkit</h2>
+                <p class="mb-0 opacity-75">Scripts + repair tools for hard moments.</p>
+              </div>
+              <a class="btn btn-pill" href="toolkit.html">Start Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bottom Nav -->
+  <nav class="bottom-nav">
+    <a class="bottom-nav__item active" href="index.html" aria-label="Home"><i class="bi bi-house-heart"></i></a>
+    <a class="bottom-nav__item" href="checkin.html" aria-label="Check-In"><i class="bi bi-check-circle"></i></a>
+    <a href="coming-soon.html" class="bottom-nav__item">
+      <i class="bi bi-person-heart"></i></a>
+    <a class="bottom-nav__item" href="insights.html" aria-label="Insights"><i class="bi bi-yin-yang"></i></a>
+    <a class="bottom-nav__item" href="toolkit.html" aria-label="Toolkit"><i class="bi bi-chat-heart"></i></a>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+    /* CODE GOES HERE */
+    background-color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 700px;
+}
+
+h1 {
+    font-size: 40 px;
+}
+
+#website
+{
+    color: white;
+    font-weight: lighter;
+}
+
+#linkedin
+{
+    text-transform: uppercase;
+}
